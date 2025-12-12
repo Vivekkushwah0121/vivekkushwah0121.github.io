@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Vivek Kumar Kushwaha - Java Developer</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+        
+        body {
+            background-color: #f5f5f5;
+            color: #333;
+            line-height: 1.6;
+        }
+        
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 60px 0;
+            text-align: center;
+        }
+        
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 5px solid white;
+            margin-bottom: 20px;
+            background-color: #ddd;
+        }
+        
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        
+        .tagline {
+            font-size: 1.2em;
+            margin-bottom: 20px;
+            opacity: 0.9;
+        }
+        
+        .contact-links {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+        
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background: white;
+            color: #667eea;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: transform 0.3s;
+        }
+        
+        .btn:hover {
+            transform: translateY(-3px);
+        }
+        
+        section {
+            background: white;
+            margin: 30px 0;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        
+        h2 {
+            color: #667eea;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #667eea;
+        }
+        
+        .project {
+            margin-bottom: 30px;
+        }
+        
+        .project h3 {
+            color: #333;
+            margin-bottom: 10px;
+        }
+        
+        .tech-stack {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin: 10px 0;
+        }
+        
+        .tech-tag {
+            background: #e0e7ff;
+            color: #667eea;
+            padding: 5px 10px;
+            border-radius: 20px;
+            font-size: 0.9em;
+        }
+        
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #333;
+            color: white;
+            margin-top: 50px;
+        }
+        
+        @media (max-width: 768px) {
+            .container {
+                padding: 10px;
+            }
+            
+            section {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <!-- Add your photo here -->
+            <div class="profile-img"></div>
+            <h1>Vivek Kumar Kushwaha</h1>
+            <p class="tagline">Java Full-Stack Developer | Cybersecurity Enthusiast</p>
+            <p>Building secure, scalable web applications with Spring Boot & React</p>
+            
+            <div class="contact-links">
+                <a href="mailto:vivekkushwah0121@gmail.com" class="btn">Email Me</a>
+                <a href="https://linkedin.com/in/vivek1607" class="btn">LinkedIn</a>
+                <a href="https://github.com/Vivekkushwah0121" class="btn">GitHub</a>
+                <a href="https://hackerrank.com/profile/vivekkushwah0121" class="btn">HackerRank</a>
+            </div>
+        </div>
+    </header>
+    
+    <div class="container">
+        <section id="about">
+            <h2>About Me</h2>
+            <p>MCA graduate with cybersecurity internship experience, skilled in Java, Spring Boot, and React.js. Passionate about building secure, scalable web applications using modern technologies.</p>
+            <p>Always eager to learn new technologies and solve challenging problems.</p>
+        </section>
+        
+        <section id="projects">
+            <h2>Featured Projects</h2>
+            
+            <div class="project">
+                <h3>📓 Journal Application</h3>
+                <div class="tech-stack">
+                    <span class="tech-tag">Spring Boot</span>
+                    <span class="tech-tag">MongoDB</span>
+                    <span class="tech-tag">JWT</span>
+                    <span class="tech-tag">REST APIs</span>
+                    <span class="tech-tag">Lombok</span>
+                </div>
+                <p>Secure journaling app with JWT authentication & MongoDB Atlas cloud database.</p>
+                <ul>
+                    <li>✅ Optimized CRUD operations reducing response time by 30%</li>
+                    <li>✅ Reduced boilerplate code by 40% using Lombok</li>
+                    <li>✅ Implemented security best practices</li>
+                </ul>
+            </div>
+            
+            <div class="project">
+                <h3>👥 Employee Management System</h3>
+                <div class="tech-stack">
+                    <span class="tech-tag">JavaScript</span>
+                    <span class="tech-tag">HTML5</span>
+                    <span class="tech-tag">CSS3</span>
+                    <span class="tech-tag">MySQL</span>
+                </div>
+                <p>Full-stack system handling 500+ records with CRUD operations.</p>
+                <ul>
+                    <li>✅ Improved data accuracy by 95% with client-side validation</li>
+                    <li>✅ Responsive UI supporting multiple devices</li>
+                </ul>
+            </div>
+            
+            <div class="project">
+                <h3>🎓 Student Management System</h3>
+                <div class="tech-stack">
+                    <span class="tech-tag">JavaScript</span>
+                    <span class="tech-tag">HTML5</span>
+                    <span class="tech-tag">CSS3</span>
+                    <span class="tech-tag">MySQL</span>
+                    <span class="tech-tag">Agile</span>
+                </div>
+                <p>Managed 1000+ student records with database operations.</p>
+                <ul>
+                    <li>✅ Applied Agile methodology for development lifecycle</li>
+                    <li>✅ Efficient handling of large datasets</li>
+                </ul>
+            </div>
+        </section>
+        
+        <section id="skills">
+            <h2>Technical Skills</h2>
+            <div class="tech-stack">
+                <span class="tech-tag">Java</span>
+                <span class="tech-tag">Spring Boot</span>
+                <span class="tech-tag">JavaScript</span>
+                <span class="tech-tag">React.js</span>
+                <span class="tech-tag">HTML5</span>
+                <span class="tech-tag">CSS3</span>
+                <span class="tech-tag">MongoDB</span>
+                <span class="tech-tag">MySQL</span>
+                <span class="tech-tag">REST APIs</span>
+                <span class="tech-tag">JWT</span>
+                <span class="tech-tag">Git</span>
+                <span class="tech-tag">Cybersecurity</span>
+                <span class="tech-tag">Penetration Testing</span>
+            </div>
+        </section>
+        
+        <section id="certifications">
+            <h2>Certifications & Achievements</h2>
+            <ul>
+                <li>Spring Boot Fundamentals - Udemy (2025)</li>
+                <li>MongoDB Basics - MongoDB University (2025)</li>
+                <li>Cybersecurity Essentials - CISCO (2023)</li>
+                <li>First Position in Ideathon 2023 - Outperformed 50+ participants</li>
+            </ul>
+        </section>
+    </div>
+    
+    <footer>
+        <p>© 2024 Vivek Kumar Kushwaha. All rights reserved.</p>
+        <p>📧 vivekkushwah0121@gmail.com | 📱 +91 7017312355</p>
+        <p>Visit my <a href="https://github.com/Vivekkushwah0121" style="color: #fff;">GitHub</a> for more projects</p>
+    </footer>
+</body>
+</html>
